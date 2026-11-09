@@ -1,0 +1,23 @@
+{ margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #0b1120; color: #ffffff; line-height: 1.6; }
+.portfolio { max-width: 1100px; margin: auto; padding: 25px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-bottom: 1px solid #263247; }
+nav h2 { color: #38bdf8; }
+nav a { color: white; text-decoration: none; margin-left: 20px; }
+.hero { padding: 100px 0; text-align: center; }
+.hero h1 { font-size: 48px; margin: 15px 0; }
+.hero h1 span { color: #38bdf8; }
+.hero p { color: #cbd5e1; margin: 15px 0; }
+.tag { display: inline-block; background: #172554; color: #38bdf8; padding: 8px 18px; border-radius: 25px; }
+.btn { display: inline-block; background: #0284c7; color: white; padding: 12px 25px; margin-top: 20px; border-radius: 8px; text-decoration: none; }
+.btn:hover { background: #0369a1; }
+section { padding: 45px 0; }
+section h2 { color: #38bdf8; margin-bottom: 20px; }
+.skills { display: flex; flex-wrap: wrap; gap: 12px; }
+.skill { background: #172033; border: 1px solid #334155; padding: 12px 20px; border-radius: 8px; }
+.project { background: #172033; padding: 25px; border-radius: 12px; border: 1px solid #334155; }
+.project h3 { color: #38bdf8; margin-bottom: 10px; }
+footer { text-align: center; padding: 30px; color: #94a3b8; border-top: 1px solid #263247; }
+@media (max-width: 600px) { .hero h1 { font-size: 34px; }
+nav { flex-direction: column; gap: 15px; }
+nav a { margin: 8px; } }
